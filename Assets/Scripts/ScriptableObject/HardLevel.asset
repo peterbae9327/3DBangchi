@@ -21,3 +21,4 @@ MonoBehaviour:
   towerPower: 5
   towerHealth: 60
   barrierHealth: 100
+  perZombie: 50

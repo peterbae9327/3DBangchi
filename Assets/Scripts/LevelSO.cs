@@ -17,4 +17,6 @@ public class LevelSO : ScriptableObject
     public float towerHealth;
     [Header("Barrier")]
     public float barrierHealth;
+    [Header("Pay")]
+    public int perZombie;
 }
