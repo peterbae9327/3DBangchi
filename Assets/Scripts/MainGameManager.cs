@@ -57,6 +57,7 @@ public class MainGameManager : MonoBehaviour
         countText.text = "START!";
         GameUI.SetActive(true);
         yield return new WaitForSeconds(1);
+        GameObject.Find("ZombieSpawner").GetComponent<ZombieSpawner>().GetStarted();
         Destroy(countText);
     }
 }

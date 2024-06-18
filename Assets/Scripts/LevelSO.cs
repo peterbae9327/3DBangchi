@@ -11,12 +11,8 @@ public class LevelSO : ScriptableObject
     public float zombieTimes;
     [Header("Marine")]
     public float marinePower;
-    public float marineHealth;
     [Header("Tower")]
     public float towerPower;
-    public float towerHealth;
-    [Header("Barrier")]
-    public float barrierHealth;
     [Header("Pay")]
     public int perZombie;
 }

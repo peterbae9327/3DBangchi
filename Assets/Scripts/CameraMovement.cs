@@ -11,11 +11,11 @@ public class CameraMovement : MonoBehaviour
     }
     IEnumerator CameraZoomOut()
     {
-        while(gameObject.transform.position.y < 65)
+        while(gameObject.transform.position.y < 40)
         {
             gameObject.transform.position += Vector3.up*Time.deltaTime*10;
             yield return null;
         }
-        gameObject.transform.position = new Vector3(0, 65, 0);
+        gameObject.transform.position = new Vector3(0, 40, 0);
     }
 }
