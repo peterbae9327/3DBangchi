@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: EasyLevel
   m_EditorClassIdentifier: 
   zombieHealth: 20
-  zombieSpeed: 2
+  zombieSpeed: 1
   zombiePower: 1
   zombieTimes: 5
   marinePower: 20
-  marineHealth: 100
   towerPower: 10
-  towerHealth: 200
-  barrierHealth: 500
   perZombie: 100

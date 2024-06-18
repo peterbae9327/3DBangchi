@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: NormLevel
   m_EditorClassIdentifier: 
   zombieHealth: 50
-  zombieSpeed: 5
+  zombieSpeed: 2
   zombiePower: 10
   zombieTimes: 2
   marinePower: 10
-  marineHealth: 50
   towerPower: 5
-  towerHealth: 100
-  barrierHealth: 200
   perZombie: 70

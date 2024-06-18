@@ -13,12 +13,9 @@ MonoBehaviour:
   m_Name: HardLevel
   m_EditorClassIdentifier: 
   zombieHealth: 100
-  zombieSpeed: 10
+  zombieSpeed: 3
   zombiePower: 20
   zombieTimes: 1
   marinePower: 10
-  marineHealth: 30
   towerPower: 5
-  towerHealth: 60
-  barrierHealth: 100
   perZombie: 50

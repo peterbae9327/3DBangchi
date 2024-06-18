@@ -809,9 +809,10 @@ GameObject:
   - component: {fileID: 3568628872616989892}
   - component: {fileID: 5908755947409771796}
   - component: {fileID: -4599229599348871277}
+  - component: {fileID: 6462810818556778553}
   m_Layer: 0
   m_Name: Zombie3
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -879,7 +880,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &-4599229599348871277
 MonoBehaviour:
@@ -895,6 +896,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   speed: 0
+--- !u!136 &6462810818556778553
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803014352389650695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2608644
+  m_Height: 1.7958431
+  m_Direction: 1
+  m_Center: {x: 0.005739242, y: 0.8991498, z: -0.03826168}
 --- !u!1 &4956532458698703312
 GameObject:
   m_ObjectHideFlags: 0
